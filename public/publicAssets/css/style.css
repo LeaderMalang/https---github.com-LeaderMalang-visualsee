@@ -1,0 +1,146 @@
+body{
+    
+    background-color: #f4f4f4;
+}
+/* .header{
+    position: sticky;
+    top: 0px;
+} */
+#navbar{
+    position: sticky;
+    top: 0px;
+    height: 75px;
+    background-color: #f4f4f4;
+
+}
+.list-item li{
+    display: inline;
+    margin: 3px 18px ;
+}
+.list-item li  a{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+.main-heading{
+    font-size: 33px;
+    font-family: 'Raleway', sans-serif;
+}
+.hr{
+    width: 80%;
+    margin-left: 155px;
+    border: 1px solid black;
+}
+.our-work-list{
+    list-style: none;
+}
+.our-work-list li a{
+    color: black;
+    font-size: 14px;
+}
+.our-work-list li a:hover{
+    color: red;
+}
+.form{
+    border: 1px solid lightgray;
+}
+.form input{
+    width: 100%;
+    height: 50px;
+}
+.form textarea{
+    width: 100%;
+}
+.btn{
+    border: 1px solid lightgray;
+    margin-top: 10px;
+    border-radius: 0px;
+    width: 150px;
+    height: 50px;
+}
+.btn:hover{
+    background-color: lightgrey;
+}
+.footer{
+    margin-top: 90px;
+    margin-bottom: 50px;
+    font-size: 14px;
+    line-height: 2;
+}
+.dropbtn {
+    border: none;
+    margin: 0px 20px 0px 0;
+    font-size: 14px;
+    background: url(https://bucket2.format-PublicAssets.com/theme_versions/9337856/PublicAssets/images/arrow-down.svg) right 60% no-repeat;
+    padding-right: 10px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    padding: 8px 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  .production-heading-text{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    margin: 15px 0px;
+}.Welcome-studio{
+    margin-top: 150px;
+}
+.Location{
+    margin-top: 100px;
+}
+.Location a{
+    color: black;
+}
+.take-tour{
+    margin-top: 100px;
+}
+.about-text{
+    text-align: justify;
+    font-size: 18px;
+    font-weight:400;
+    margin: 90px 220px;
+    font-family: 'Raleway', sans-serif;
+}
+.our-team a{
+    text-decoration: underline;
+    color: black;
+}
+.team-row{
+    margin-top: -74px;
+}
+.client-detail{
+    font-size: 17px;
+    text-align: justify;
+}
+.client-detail a{
+    text-decoration: underline;
+}
+.our-team a:hover{
+    color: red;
+    text-decoration: none;
+}
+.logo{
+    padding-left: 115px;
+}

@@ -4,7 +4,7 @@
         <nav id="navbar">
             <div class="row pt-2">
                 <div class="col-3 px-5  ">
-                    <a href="{{route('index')}}"><img src="PublicAssets/images/logo.png" width="150px" alt=""></a>
+                    <a href="{{route('index')}}"><img src="{{ asset('PublicAssets/images/logo.png')}}" width="150px" alt=""></a>
                 </div>
                 <div class="col"></div>
                 <div class="col-7 ">

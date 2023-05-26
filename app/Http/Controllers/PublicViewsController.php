@@ -8,6 +8,18 @@ use Illuminate\Support\Facades\Auth;
 
 class PublicViewsController extends Controller
 {
+      public function fashion()
+    {
+        return view('PublicPanel.fashion');
+    }
+     public function ecom()
+    {
+        return view('PublicPanel.ecom');
+    }
+     public function flims()
+    {
+        return view('PublicPanel.flims');
+    }
     public function index()
     {
         return view('PublicPanel.index');
@@ -34,7 +46,7 @@ class PublicViewsController extends Controller
     public function adminLoggedIn(Request $request)
     {
         $user=User::where(['username'=>$request->username,'password'=>$request->password])->first();
-        //User existence Check 
+        //User existence Check
         if($user){
             Auth::login($user);
             return redirect()->route('adminDashboard');

@@ -12,12 +12,12 @@
                         <div class="dropdown">
                             <button class="dropbtn">PHOTO &#9660</button>
                             <div class="dropdown-content">
-                                <a href="#">Ecommerce </a>
-                                <a href="#">Fashion</a>
+                                <a href="{{route('ecom')}}">Ecommerce </a>
+                                <a href="{{route('fashion')}}">Fashion</a>
                                 <a href="#">Documentery</a>
                             </div>
                         </div>
-                        <li><a href="">FILMS</a></li>
+                        <li><a href="{{route('flims')}}">FILMS</a></li>
                         <li><a href="{{route('collaborators')}}">COLLABORATORS</a></li>
                         <!-- <li><a href="{{route('studio')}}">ENDORSEMENT</a></li> -->
                         <li><a href="{{route('about')}}">ABOUT</a></li>

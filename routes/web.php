@@ -21,7 +21,9 @@ Route::get('/about',[PublicViewsController::class,'about'])->name('about');
 Route::get('/studio',[PublicViewsController::class,'studio'])->name('studio');
 Route::get('/collaborators',[PublicViewsController::class,'collaborators'])->name('collaborators');
 Route::get('/contact',[PublicViewsController::class,'contact'])->name('contact');
-
+Route::get('/films',[PublicViewsController::class,'flims'])->name('flims');
+Route::get('/ecommerce',[PublicViewsController::class,'ecom'])->name('ecom');
+Route::get('/fashion',[PublicViewsController::class,'fashion'])->name('fashion');
 //Admin Login
 Route::get('/admin/login',[PublicViewsController::class,'adminLogin'])->name('login');
 Route::post('/admin/loggedIn',[PublicViewsController::class,'adminLoggedIn'])->name('adminLoggedIn');

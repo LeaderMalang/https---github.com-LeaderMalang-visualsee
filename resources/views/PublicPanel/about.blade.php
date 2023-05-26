@@ -63,7 +63,7 @@
             </div>
             <div class="row my-4">
                 <div class="col">
-                    <img src="{{ asset('PublicAssets/Ecom/Brands-Page.jpg')}}" alt="">
+                    <img src="{{ url('PublicAssets/Ecom/Brands-Page.jpg')}}" alt="">
                 </div>
             </div>
         </div>

@@ -26,7 +26,10 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <iframe src="https://player.vimeo.com/video/751212091?h=a03370a320&byline=0&portrait=0" width="1150px" height="600px" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                <video src="PublicAssets/Ecom/Show Reel.mp4" width="900" height="700" controls poster="PublicAssets/Ecom/Screenshot 2023-05-25 at 7.55.33 PM.png">
+                Your browser does not support the video tag.
+                </video>
+                {{-- <iframe src="https://player.vimeo.com/video/751212091?h=a03370a320&byline=0&portrait=0" width="1150px" height="600px" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> --}}
                 <!-- <p><a href="https://vimeo.com/751212091">Seeing Things Film Reel 2022</a> from <a href="https://vimeo.com/seeingthingsvideo">Seeing Things</a> on <a href="https://vimeo.com">Vimeo</a>.</p> -->
             </div>
         </div>
@@ -46,7 +49,7 @@
         </div>
         <div class="row mt-5 pt-5">
             <div class="col">
-                <img src="PublicAssets/images/client.png" width="1050px" alt="">
+                <img src="PublicAssets/Ecom/Brands-Page.jpg" width="1050px" alt="">
             </div>
         </div>
     </div>

@@ -7,23 +7,20 @@
     <div class="container">
         <div class="row about-text">
             <div class="col">
-                <p>We are a Dubai-based production agency &nbsp; &nbsp; & &nbsp; &nbsp; creative studio representing a
-                    <br>
-                    collective of <b> photographers, filmmakers,</b> &nbsp; & &nbsp; <b> artists</b> with world-class
-                    talent,<br>
-                    international experience, and admirable work ethic.
+                <p>
+"Hi, I'm Ali de Bongo, a creative media producer with over a decade of experience in photography, videography, and motion graphics. I have a passion for capturing engaging visuals that tell compelling stories and have developed a diverse skill set in the media production industry.
+
                 </p>
-                <p>We take pride in producing high-quality work for our local and international <br>
-                    clientele across many industries.
+                <p>My career began as a production assistant in various production houses and photography studios in the Gulf, where I developed a specialization in product photography. As a product photographer for a boutique photography studio in Dubai, I managed projects to create e-commerce imagery for top online stores like Amazon, eBay, Houz, Wish, Target, and more. My deep understanding of e-commerce imagery and its industrial demand allows me to produce high-quality visuals that meet my client's needs.
+
                 </p>
                 <p>
-                    <b>Beyond photography, film & production </b> we offer creative direction, graphic design,
-                    content creation, 3D-mapping & more.
+                   Thanks for visiting my website, and I'm excited to work with you to create stunning visuals that tell your story."
                 </p>
             </div>
         </div>
     </div>
-    <div class="container">
+    {{-- <div class="container">
         <div class="row about-text">
             <div class="col">
                 <h2><b> We do our job very, very well. </b></h2>
@@ -42,7 +39,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <div class="container">
         <div class="row about-text">
             <div class="col">
@@ -66,7 +63,7 @@
             </div>
             <div class="row my-4">
                 <div class="col">
-                    <img src="PublicAssets/images/client.png" alt="">
+                    <img src="PublicAssets/Ecom/Brands-Page.jpg" alt="">
                 </div>
             </div>
         </div>

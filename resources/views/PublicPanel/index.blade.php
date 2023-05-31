@@ -25,7 +25,7 @@
     <hr class="hr">
     <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col text-center">
                 <video src="{{ url('PublicAssets/Ecom/Show Reel.mp4')}}" width="900" height="700" controls poster="{{ url('PublicAssets/Ecom/Screenshot 2023-05-25 at 7.55.33 PM.png')}}">
                 Your browser does not support the video tag.
                 </video>
@@ -48,8 +48,8 @@
             </div>
         </div>
         <div class="row mt-5 pt-5">
-            <div class="col">
-                <img src="{{ url('PublicAssets/Ecom/Brands-Page.jpg')}}" width="1050px" alt="">
+            <div class="col text-center">
+                <img src="{{ url('PublicAssets/Ecom/Brands-Page.jpg')}}"   alt="">
             </div>
         </div>
     </div>
